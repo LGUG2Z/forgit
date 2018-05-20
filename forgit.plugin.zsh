@@ -4,15 +4,12 @@ forgit::fzf() {
         --cycle \
         --reverse \
         --height '80%' \
-        --bind='alt-v:page-up' \
-        --bind='ctrl-v:page-down' \
-        --bind='alt-k:preview-up,alt-p:preview-up' \
-        --bind='alt-j:preview-down,alt-n:preview-down' \
+        --bind='alt-u:preview-up' \
+        --bind='alt-d:preview-down' \
         --bind='alt-a:select-all' \
         --bind='ctrl-r:toggle-all' \
         --bind='ctrl-s:toggle-sort' \
         --bind='?:toggle-preview' \
-        --preview-window="right:60%" \
         --bind='alt-w:toggle-preview-wrap' "$@"
 }
 
