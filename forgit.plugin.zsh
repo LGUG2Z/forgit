@@ -1,6 +1,5 @@
 forgit::fzf() {
-    fzf --border \
-        --ansi \
+    fzf --ansi \
         --cycle \
         --reverse \
         --bind='alt-u:preview-up' \
