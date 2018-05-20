@@ -3,7 +3,6 @@ forgit::fzf() {
         --ansi \
         --cycle \
         --reverse \
-        --height '80%' \
         --bind='alt-u:preview-up' \
         --bind='alt-d:preview-down' \
         --bind='alt-a:select-all' \
